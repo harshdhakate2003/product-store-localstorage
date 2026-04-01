@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(220, 202, 238);
+}
+
+#prodForm{
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#prodForm > input, #prodForm > select{
+    font-size: 18px;
+    height: 30px;
+    width: 80%;
+}
+
+#container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    margin: auto;
+    gap: 25px;
+}
+
+.card{
+    /* border: 2px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: auto;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.topDiv{
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    margin-top: 15px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.btmDiv{
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 50%;
+    margin: auto;
+}
+.tittle{
+    font-size: 16px;
+    margin-top: 0;
+}
+.category,.price{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 0.5;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+#filterButtons{
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#filterCategory,#sortPrice{
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}

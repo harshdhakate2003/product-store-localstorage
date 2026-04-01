@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="" id="prodForm">
+        <h3>Product Form</h3>
+        <input type="text" name="ptitle" id="title" placeholder="Enter the title of product">
+        <input type="number" name="pprice" id="price" placeholder="Enter the price of product">
+        <input type="url" id="image" name="pimage" placeholder="Enter the url of image">
+        <input type="text" name="pdescription" id="description" placeholder="Enter Product description" >
+        <select name="pcategory" id="category">
+            <option value="none">category</option>
+            <option value="Mens">Mens</option>
+            <option value="Womens">Womens</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Jewellery">Jewellery</option>
+        </select>
+        <input type="submit" name="" id="">
+    </form>
+
+    <div id="filterButtons">
+        <select name="" id="filterCategory">
+            <option value="none">FilterByCategory</option>
+            <option value="men">Mens</option>
+            <option value="women">Womens</option>
+            <option value="jwl">Jewellery</option>
+            <option value="elc">Electronics</option>
+        </select>
+
+        <select name="" id="sortPrice">
+            <option value="none">SortByPrice</option>
+            <option value="htl">HighToLow</option>
+            <option value="lth">LowToHigh</option>
+        </select>
+    </div>
+
+    <div id="container"></div>
+
+
+</body>
+<script src="./script.js"></script>
+</html>
