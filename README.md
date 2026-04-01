@@ -1,50 +1,46 @@
-# 🛒 Product Store App
+# Product Store App
 
-A mini **Product Management Web App** built using **HTML, CSS & Vanilla JavaScript**.
-
-This project lets users add products, save them in LocalStorage, filter by category and sort by price — all without any backend.
-
----
-
-## ✨ Features
-
-- ➕ Add new products using a form  
-- 💾 Save products in LocalStorage  
-- 🖼 Dynamic product display  
-- 🗂 Filter products by category  
-- 💰 Sort products by price  
-- ⚡ Fully Frontend Project  
+This is a simple Product Store web application built using HTML, CSS and JavaScript.  
+The app allows users to add products, store them in LocalStorage, filter by category and sort by price.
 
 ---
 
-## 🛠 Tech Stack
+## Features
 
-- HTML5  
-- CSS3  
-- JavaScript (ES6)
+- Add new product using form  
+- Store products in LocalStorage  
+- Display products dynamically  
+- Filter products by category  
+- Sort products by price  
 
 ---
 
-## ▶️ How to Run
+## Technologies Used
 
-1. Download or clone the repository  
+- HTML  
+- CSS  
+- JavaScript  
+
+---
+
+## How to Run
+
+1. Download or clone this repository  
 2. Open the project folder  
 3. Open **index.html** in your browser  
 
+---
+
+## Project Purpose
+
+This project was created to practice:
+- DOM manipulation  
+- Event handling  
+- LocalStorage usage  
+- JavaScript array methods  
 
 ---
 
-## 🎯 Why I Built This
-
-This project helped me practice:
-
-- DOM Manipulation  
-- Event Handling  
-- LocalStorage CRUD  
-- JavaScript array methods (`map`, `filter`, `sort`)  
-
----
-
-## 👨‍💻 Author
+## Author
 
 Harsh Dhakate
